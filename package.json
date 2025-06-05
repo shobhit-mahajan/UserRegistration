@@ -1,0 +1,24 @@
+{
+  "name": "userregistration",
+  "version": "1.0.0",
+  "description": "User can be able to register here with the help of their name , email , phone number and also upload profile picture",
+  "main": "\t",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node Server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.1",
+    "multer": "^2.0.1",
+    "nodemailer": "^7.0.3",
+    "path": "^0.12.7"
+  }
+}
