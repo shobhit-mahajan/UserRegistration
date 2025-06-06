@@ -1,6 +1,7 @@
+// packages
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
-
+// Schema
 const UserSchema = new Schema({
                UserName:{type:String,required:true},
                email:{type:String,required:true},
